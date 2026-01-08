@@ -10,7 +10,7 @@ app = FastAPI()
 SECRET_KEY = "your_secret_key_here"  # На практике используйте .env
 ALGORITHM = "HS256"
 ACCESS_TOKEN_EXPIRE_MINUTES = 15
-REFRESH_TOKEN_EXPIRE_DAYS = 7
+REFRESH_TOKEN_EXPIRE_DAYS = 6
 
 # Модели данных
 class User(BaseModel):
