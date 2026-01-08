@@ -1,1 +1,1 @@
-"# проэкт для jwt" 
+"# auoth project" 
